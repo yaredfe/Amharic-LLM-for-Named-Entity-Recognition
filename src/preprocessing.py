@@ -12,7 +12,7 @@ def load_amharic_stopwords():
         stopwords = file.read().splitlines()
     return set(stopwords)
 
-from nltk.tokenize import word_tokenize  # type: ignore
+from nltk.tokenize import word_tokenize 
 
 # Preprocess text data: Tokenizing and Normalizing
 def preprocess_text(text):
