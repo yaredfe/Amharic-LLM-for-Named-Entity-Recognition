@@ -1,3 +1,6 @@
 venv/
 .vscode/
 .env
+data/
+scraping_session.session
+nltk_data/
